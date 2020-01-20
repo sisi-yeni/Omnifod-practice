@@ -298,3 +298,13 @@ header {
     width: auto;
     margin-top: 10px;
 }
+
+
+/*cities*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+
+}
