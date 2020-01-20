@@ -105,6 +105,22 @@ h2:after {
     line-height: 145%;
 }
 
+/*links*/
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+}
 
 /*Buttons*/
 .btn:link,
@@ -114,7 +130,8 @@ h2:after {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-    transition: backgground-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+
 }
 
 
@@ -307,4 +324,8 @@ header {
     height: auto;
     margin-bottom: 20px;
 
+}
+
+.city-features {
+    margin-bottom: 5x;
 }
